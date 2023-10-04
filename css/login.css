@@ -1,0 +1,263 @@
+/* login-head */
+
+* {
+    font-family: PingFangSC-Medium;
+    color: rgb(50, 50, 50);
+    moz-user-select: -moz-none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.login-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimg {
+    height: 49px;
+    width: 169px;
+    line-height: 70px;
+}
+
+.testimg>img {
+    width: 169px;
+    height: 40px;
+}
+
+.login-front {
+    width: 155px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.login-front>div {
+    display: inline-block;
+}
+
+.login-front>div:hover {
+    color: skyblue!important;
+}
+
+.login-front span {
+    /* rigth: 5px; */
+    margin-right: 5px;
+    top: 5px;
+    font-size: 25px;
+}
+
+.login-front a:hover {
+    text-decoration: none!important;
+    color: skyblue;
+}
+
+.login-front a {
+    font-weight: 150;
+    margin-right: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333333;
+}
+
+
+/* login-main */
+
+.login-main {
+    margin: 0 auto;
+    height: 660px;
+    width: 980px;
+    width: 100%;
+    background: url(../images/login-bg-font.png) no-repeat #12c7f0;
+    background-position: 100px 150px;
+    background-size: 300px;
+}
+
+.login-switch {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+}
+
+.login-switch>span {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.login-switch>span:first-child {
+    margin-left: 35px;
+}
+
+
+/* .login-switch>span:active, */
+
+.switchLogin {
+    border-bottom: 3px solid skyblue;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.login-switch>span:nth-child(2) {
+    margin-right: 35px;
+}
+
+
+/* .defult-login {
+    display: none;
+} */
+
+.login-box {
+    position: relative;
+    float: right;
+    margin-top: 120px;
+    margin-right: 200px;
+    width: 360px;
+    height: 400px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.login-box input {
+    padding-left: 30px;
+    font-size: 13px;
+    width: 300px;
+    height: 38px;
+    border: solid 1px #CCC
+}
+
+.hidden-login {
+    display: none;
+    position: relative;
+    float: right;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.hidden-login input {
+    padding-left: 30px;
+    font-size: 13px;
+    width: 300px;
+    height: 38px;
+    border: solid 1px #CCC/* color: skyblue; */
+}
+
+.hidden-login .user>span:last-child {
+    cursor: not-allowed;
+    position: absolute;
+    top: 195px;
+    left: 33px;
+    color: #dddddd;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.user,
+.paw {
+    position: relative;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 35px;
+}
+
+.paw {
+    padding-top: 25px!important;
+}
+
+.glyphicon-user,
+.glyphicon-lock {
+    position: absolute;
+    color: #CCC;
+    left: 30px;
+}
+
+.troggle {
+    display: inline-block;
+}
+
+.glyphicon-unchecked {
+    color: #CCC;
+    text-align: center;
+    cursor: pointer;
+}
+
+.glyphicon-ok-circle {
+    color: #12c7f0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.autoLo {
+    color: #ccc;
+}
+
+.forgetP {
+    position: absolute;
+    left: 32px;
+    top: 200px;
+}
+
+.forget {
+    margin-left: 128px;
+}
+
+.autoLo:hover {
+    text-decoration: none;
+    color: #ccc;
+    cursor: default;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: skyblue;
+}
+
+.login-btn {
+    width: 300px;
+    height: 40px;
+    left: 25px;
+    position: absolute;
+    top: 280px;
+    text-align: center;
+    border: 1px solid skyblue;
+    line-height: 39px;
+    cursor: pointer;
+    color: skyblue;
+    /* left: 50%; */
+    /* transform: translateX(50%); */
+}
+
+.bottom {
+    cursor: pointer;
+    position: absolute;
+    top: 350px;
+    left: 65px;
+}
+
+
+/* footer */
+
+.common-footer {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.common-footer>p,
+.common-footer>a {
+    display: block;
+    text-align: center;
+    /* flex: 1; */
+}
+
+.common-footer>a {
+    transform: translateY(-4px);
+    text-decoration: none;
+    color: black;
+}
+
+.common-footer>a:hover {
+    cursor: pointer;
+    color: skyblue;
+}
